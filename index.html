@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Let's bring out yout inner chef!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+       <!-- start of navbar -->
+
+       <nav class="grey darken-2">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Foodie's Delight</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#savedRecipe">Saved Recipes</a></li>
+            <!-- <li><a href="collapsible.html">Component 2</a></li> -->
+          </ul>
+          </div>
+          </nav>
+        </div>
+      <!-- end of navbar -->
+      <header class="header grey">
+        <p class="text-center blue-text text-darken-2">
+          What to make dinner tonight? Let's get some ideas and we'll the get recipes and tutorials going!
+        </p>
+
+      </header>
+
+      <main>
+        <div class = "row">
+            <div class="col s12 m5 search row">
+                <div class="input-field">
+                  <input placeholder="Search Recipe" id="search" type="text" class="validate" name="search">
+                  
+                  <button type="submit" class="waves-effect waves-light btn">Search</button>
+                  <br>
+                  <a href=""data-target="modal1" class="modal-trigger">Search History</a>
+                  <div class="recipes-container">
+                  <h3><span id = "searched"></span> RECIPES</h3>
+                  
+                  </div>
+               <!-- Modal Structure -->
+               <div id="modal1" class="modal history">
+                  <div class="modal-content">
+                    <h4>Search History</h4>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+            
+            <div class="col s12 m7 videos">
+                <h3>VIDEO TUTORIALS</h3>
+                <div class = "row results">
+                
+            </div>
+            </div>
+        </div>
+        
+      </div>
+        
+    </main>
+
+    <section class="col s12" id = "savedRecipes">
+      <h3>Saved Recipes</h3>
+      <div class="carousel">
+        <!-- saved recipe modal -->
+        <div id="modal2" class="modal recipe">
+          <div class="modal-content">
+            <h4>Ingredients</h4>
+            <div class = "modalTwo"></div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+      </div>
+      </div>
+    </section>
+      
+
+
+  <!-- start of footer -->
+  <footer class="page-footer grey darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Foodie Delight</h5>
+          <p class="grey-text text-lighten-4">
+            Any questions or concerns? </p>
+
+          <p> Let us know and we'll be happy to help!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3"></a>Phone : 1-800-402-3493</li>
+            <li>Email: info@FoodieDelight.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        © 2021 Foodie Delight, Inc
+        <a class="grey-text text-lighten-4 right"></a>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  
+  <script src="./assets/js/recipe.js"></script>
+  <script src="./assets/js/youtube.js"></script>
+
+</body>
+
+</html>
