@@ -7,8 +7,10 @@ Simple and easy to use just search something you want to cook,
 and you will be presented with different options to chose. If you need any assistance we've included a video section to make it easier to follow instructions. 
 
 ## Website
+https://fernandomoreno1.github.io/Foodie-Delight/
 
 ## Preview
+![Screen Shot 2022-02-20 at 5 47 41 PM](https://user-images.githubusercontent.com/94732823/154867817-bdabefaf-9475-4ee7-9d6b-63e82fbde99d.png)
 
 
 ## Technologies Used
